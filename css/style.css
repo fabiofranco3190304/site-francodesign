@@ -1,0 +1,761 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    color: #000;
+
+}
+
+a:hover {
+
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+  }
+
+  .desktop{
+      display: block;
+  }
+
+  .mobile{
+      display:none;
+  }
+
+/* ---------------- framework ---------------- */
+
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    width: 100%;
+
+}
+
+
+/* ------------------------------ Regras Gerais ------------------------------ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  
+}
+
+.affix{
+    position: fixed;
+}
+
+
+
+/* ------------------------------ Header ------------------------------ */
+
+header {
+
+    top: 0;
+    left: 0;
+    height: 143px;
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    line-height: 140px;
+    border-bottom: 1px solid #000;
+
+
+}
+
+.logo{
+    width: 50%;
+    font-size: 50px;
+    color: #000;
+
+
+}
+
+.menu{
+    width: 50%;
+    font-size: 30px;
+    color: #000;
+    text-align: right;
+    float: right;
+    word-spacing: 1em;
+    
+
+}
+
+.franco_bold{
+
+    font-weight: bold;
+}
+
+.menu a:hover {
+
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+/* ------------------------------ Main ------------------------------ */
+
+
+
+
+
+/* ------------------------------ INTRO ------------------------------ */
+
+main .home{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container img{
+
+    margin-top: 35%;
+    height: auto;
+    width: 150%;
+
+}
+
+.home_text {
+
+    margin-top: 50%;
+    font-size: 24px;
+
+}
+
+.home_foto_text_bold {
+
+    font-weight: bold;
+
+}
+
+/* ------------------------------ SEPARADOR ------------------------------ */
+
+.selected-proj {
+
+    width: 50%;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+
+
+}
+
+.selected-proj span{
+
+    font-weight: bold;
+
+}
+
+
+/* ------------------------------ ARTIGOS ------------------------------ */
+
+
+.article-text {
+
+    height: 600px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border: 1px solid #000;
+    background: white;
+}
+
+.article-text p{
+
+    font-weight: bold;
+}
+
+.article-text span{
+
+    font-size: 18px;
+
+}
+
+.article-image {
+
+    overflow: hidden;
+    opacity: 1;
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-repeat: no-repeat, repeat;
+    background-image: url("img/esjs_article.jpg");
+    background-size: cover;
+
+
+
+    
+}
+
+
+.article-image img{
+
+    width: 100%;
+    height: auto;
+}
+
+
+.text-article {
+
+    font-size: 40px;
+    font-weight: bold;
+    height: 500px;
+    padding-top: 200px;
+}
+
+
+.ver-mais-proj {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.ver-mais-proj span {
+
+    font-weight: bold;
+}
+
+
+.ver-mais-proj img {
+
+    padding-left: 10px;
+    margin-bottom: 10px;
+    transform: rotate(90deg);
+}
+
+
+
+
+
+/* ------------------------------ Footer ------------------------------ */
+
+footer{
+
+    border-top: 1px solid #000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    line-height: 1;
+
+
+}
+
+footer a{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer p{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer br{
+
+    font-size: 24px;
+
+}
+
+.by_fabio{
+
+    font-size: 24px;
+}
+
+
+
+
+
+
+/* ------------------------------ PÁGINA WORK ------------------------------ */
+
+.separador-work {
+
+    padding-top: 142px;
+}
+
+.voltar-cima {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.voltar-cima span {
+
+    font-weight: bold;
+}
+
+.voltar-cima img {
+
+    padding-left: 10px;
+}
+
+
+.container:hover .article-image {
+
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------ PÁGINA PROJETO ------------------------------ */
+
+.article-image-proj {
+
+    overflow: hidden;
+    opacity: 1;
+    width: 50%;
+    height: 595px;
+    float: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+
+
+}
+
+.article-image-proj img {
+
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+/* ---- TITLE PROJ ------ */
+
+.rebranding-esjs {
+
+    width: 70%;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 242px;
+    padding-bottom: 70px;
+
+}
+
+/* ------- TEXTO PROJ ------ */
+
+.proj_text {
+
+    font-size: 24px;
+    padding-bottom: 100px;
+
+}
+
+.img-proj {
+
+    width: 590px;
+    height: 590px;
+    background: black;
+
+}
+
+
+
+/* ------------------------------ PÁGINA STUDIO ------------------------------ */
+
+.studio_title {
+
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 242px;
+    padding-bottom: 70px;
+
+}
+
+.studio_text {
+
+    font-size: 24px;
+    padding-bottom: 100px;
+
+}
+
+.studio_text span {
+
+    font-weight: bold;
+}
+
+
+.studio_text-1 {
+
+    padding-top: 150px;
+    font-size: 24px;
+
+}
+
+.studio_title span {
+
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+
+.studio-img {
+
+    padding-left: 170px;
+    padding-right: 170px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+
+/* ------- Mobile ------ */
+
+@media (max-width: 768px) {
+
+
+    .desktop{
+        display: none;
+    }
+  
+    .mobile{
+        display: block;
+    }
+ 
+
+    /* ------- Index ------ */
+
+    .logo {
+
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: #000;
+        padding-top: 10px;
+    
+    }
+
+    header {
+
+        top: 0;
+        left: 0;
+        height: 120px;
+        width: 100%;
+        z-index: 100;
+        background: #fff;
+        line-height: 50px;
+        border-bottom: 1px solid #000;
+    
+    
+    }
+
+    .menu{
+
+        width: 100%;
+        font-size: 16px;
+        color: #000;
+        text-align: center;
+        float: none;
+        word-spacing: 1em;
+        
+    
+    }
+    
+    .container img{
+    
+        margin-top: 10%;
+        height: auto;
+        width: 100%;
+    
+    }
+
+    .home_text {
+
+        margin-top: 40%;
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    
+    }
+    
+
+    .selected-proj {
+    
+        width: 100%;
+        font-size: 16px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    
+    
+    
+    }
+
+    
+     .article-text {
+    
+        height: 225px;
+        width: 100%;
+        float: none;
+    
+    }
+
+    .article-text span{
+
+        font-size: 16px;
+    
+    }
+
+    .text-article {
+
+        font-size: 20px;
+        font-weight: bold;
+        height: 350px;
+        padding-top: 65px;
+    }
+    
+    
+    .article-image {
+    
+        opacity: 1;
+        width: 100%;
+        height: 225px;
+        float: none;
+        background-repeat: no-repeat, repeat;
+        background-image: url("img/esjs_article.jpg");
+        background-size: cover;
+    
+        
+    }
+
+    .article-image img{
+
+        width: 100%;
+        height: auto;
+    }
+    
+
+.ver-mais-proj {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.ver-mais-proj img {
+
+    width: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    transform: rotate(90deg);
+}
+
+
+    
+    footer{
+
+        border-top: 1px solid #000;
+        padding-left: 30px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        font-size: 16px;
+        line-height: 1;
+    
+    
+    }
+
+    footer a{
+
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    footer p{
+    
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    footer br{
+    
+        font-size: 16px;
+    
+    }
+    
+    .by_fabio{
+    
+        font-size: 16px;
+    }
+    
+
+
+
+    /* ------- Work ------ */
+
+    .separador-work {
+
+        padding-top: 120px;
+    }
+
+
+    .voltar-cima {
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    
+    }
+    
+    .voltar-cima span {
+    
+        font-weight: bold;
+    }
+    
+    .voltar-cima img {
+    
+        padding-left: 10px;
+    }
+    
+    .voltar-cima img {
+
+        width: 25px;
+        padding-left: 10px;
+    }
+
+
+
+/* ---- TITLE PROJ ------ */
+
+.rebranding-esjs {
+
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* ------- TEXTO PROJ ------ */
+
+.proj_text {
+
+    font-size: 16px;
+    height: 370px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+    .article-image-proj {
+
+        overflow: hidden;
+        opacity: 1;
+        width: 100%;
+        height: 225px;
+        float: none;
+        border: 1px solid white;
+        border-collapse: collapse;
+    
+    
+    }
+    
+    .article-image-proj img {
+    
+        width: 100%;
+        height: auto;
+    
+    
+    }
+
+
+
+
+/* ------- STUDIO ------ */
+
+.studio_title {
+
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.studio_text {
+
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.studio_text span {
+
+    font-weight: bold;
+}
+
+
+.studio_text-1 {
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+
+}
+
+.studio_title span {
+
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+
+.studio-img {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+    width: 100%;
+
+
+}
+
+
+
+}
